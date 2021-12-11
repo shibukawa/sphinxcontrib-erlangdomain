@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "sphinxcontrib-erlangdomain"
+version = "0.2.0"
+description = "Sphinx extension for Erlang"
+authors = ["Yoshiki Shibukawa <yoshiki@shibu.jp>"]
+classifiers = [
+        'Development Status :: 4 - Beta',
+        'Environment :: Console',
+        'Environment :: Web Environment',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: BSD License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Programming Language :: Ruby',
+        'Topic :: Documentation',
+        'Topic :: Utilities',
+]
+license = "BSD-2-Clause"
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
